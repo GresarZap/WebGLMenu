@@ -1,0 +1,46 @@
+# 
+# cubo2.obj
+#
+
+mtllib cubo2.mtl
+
+v -0.1 -0.1 -0.1
+v 0.1 -0.1 -0.1
+v 0.1 0.1 -0.1
+v -0.1 0.1 -0.1
+v -0.1 -0.1 0.1
+v 0.1 -0.1 0.1
+v 0.1 0.1 0.1
+v -0.1 0.1 0.1
+vn -0.577 -0.577 -0.577
+vn 0.577 -0.577 -0.577
+vn 0.577 0.577 -0.577
+vn -0.577  0.577 -0.577
+vn -0.577 -0.577  0.577
+vn 0.577 -0.577 0.577
+vn 0.577 0.577 0.577
+vn -0.577 0.577 0.577
+
+g frente
+usemtl lila
+f 5 6 7 8
+
+g atras
+usemtl amarillo
+f 4 3 2 1
+
+g izquierda
+usemtl celeste
+f 1 5 8 4
+
+g derecha
+usemtl rojo
+f 6 2 3 7
+
+g abajo
+usemtl azul
+f 1 2 6 5
+
+g arriba
+usemtl verde
+f 8 7 3 4

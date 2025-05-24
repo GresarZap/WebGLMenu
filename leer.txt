@@ -1,0 +1,2 @@
+Crear servidor para index.html y que pueda acceder a los archivos de src.
+Se recomienda usar extension liveServer de VSCode para crear facilmente el servidor.
